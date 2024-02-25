@@ -1,0 +1,180 @@
+/* Write some CSS below */
+body {
+    font-family: Overpass;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+    font-family: Chivo;
+    text-align: center;
+    margin: 0%;
+    padding: 24px;
+    text-shadow: #2b00ff;
+  }
+
+ 
+  
+  
+  
+  .container {
+    width: 100%;
+    margin: 0%;
+    font-size: 50px;
+    background-image: url(https://blog.artsper.com/wp-content/uploads/2019/08/push-cover-pierre-soulages-ventes-numero-magazine.jpg);
+   background-size: 100%;
+  }
+
+p {
+    color: #000000;
+    opacity: .7;
+    font-size: 30px;
+
+  }
+
+
+  
+  .banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+    background-size: cover;
+    opacity: 5;
+    background-position: center;
+    padding: 0%;
+    margin:0%;
+    text-align: center;
+  }
+
+  .banner p {
+    margin-top: 0%;
+    margin-bottom: 15%;
+  }
+  
+  .banner h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 130px;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgb(18, 18, 255);
+  }
+  
+  .banner p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 6;
+    text-shadow: 1px 1px 0px rgb(18, 18, 255);
+  }
+  
+  .button-green {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 16px 16px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  .button-green:hover {
+    background-color: rgb(255, 255, 255);
+    color: white;
+  }
+  
+  
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  padding: 50px;
+}
+
+  .card-white {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(38, 0, 255, 0.22);
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+  }
+  
+  .card-white img {
+    width: 100%;
+    border-radius: 4px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-white h3 {
+    margin-bottom: 0;
+   color: #2b00ff;
+   font-size: 40px;
+  }
+  
+  .footer {
+    background: #2b00ff;
+    text-align: center;
+    padding: 7%;
+  }
+  
+  .footer p {
+    color: white;
+    background-color: #2b00ff;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+
+
+
+.link{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(8, 0, 255);
+    padding: 20px 35px;
+    border-radius: 15px; 
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url(https://insideart.eu/wp-content/uploads/2014/07/6-burri-white-cretto-1975.jpg);
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-white {
+    background-color: rgb(8, 0, 255);
+    width: calc(100% - 60px);
+    margin: 10px;
+  }
+  .card-white h3 {
+    color: white;
+  }
+  .card-white p {
+    color: white;
+  }
+  .container h2 {
+    color:rgb(255, 255, 255);
+  font-size: 50px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+  }
+
+  .banner p {
+    font-size: 35px;
+  }
+
+  
+}
